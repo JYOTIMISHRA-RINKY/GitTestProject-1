@@ -5,6 +5,7 @@ public class Student {
 	private Integer sid;
 	private String sname;
 	private String saddrs;
+	private String subject;
 	
 	public Integer getSid() {
 		return sid;
@@ -24,6 +25,13 @@ public class Student {
 	public void setSaddrs(String saddrs) {
 		this.saddrs = saddrs;
 	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	
 	
 	
 
